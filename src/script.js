@@ -174,8 +174,8 @@ camera.position.set(0, 2, 6);
 scene.add(camera);
 
 // Controls
-const controls = new OrbitControls(camera, canvas);
-controls.enableDamping = true;
+// const controls = new OrbitControls(camera, canvas);
+// controls.enableDamping = true;
 // controls.maxDistance = 6;
 
 /**
@@ -199,7 +199,7 @@ const tick = () => {
   waterMaterial.uniforms.uTime.value = elapsedTime;
 
   // Update controls
-  controls.update();
+  // controls.update();
 
   // Render
   renderer.render(scene, camera);
