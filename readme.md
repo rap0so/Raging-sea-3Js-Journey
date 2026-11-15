@@ -1,4 +1,4 @@
-# Three.js Journey
+# Part of the Three.js Journey studies
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
